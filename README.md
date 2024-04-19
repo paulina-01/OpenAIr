@@ -14,7 +14,7 @@ drive.mount('/content/drive')
 %pip install python-Levenshtein
 %pip install fuzzy-wuzzy
 ```
-# Complete Imports
+The complete the imports necessary to run the file: 
 ```python
 import pandas as pd
 import os
@@ -40,4 +40,4 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 ```
-Then run the **Data Preprocessing** block to complete setup.
+Finally, run the **Data Preprocessing** block to complete setup. After this, the **Modelling** block can be run to go through the final analysis, as well as edit the model being used. 
