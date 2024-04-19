@@ -1,6 +1,6 @@
 # OpenAIr
 ADA24-Project
-Welcome to OpenAIr, a comprehensive analysis of amenities impact on Airbnb success using the `[InsideAirbnb dataset](https://insideairbnb.com/get-the-data/).`
+Welcome to OpenAIr, a comprehensive analysis of amenities impact on Airbnb success using the [InsideAirbnb dataset](https://insideairbnb.com/get-the-data/).
 
 # Getting Started
 For the final project results, once git cloned on your platform, cd into the Final Project/FinalProject_32.ipynb file and make sure the filtered_file.csv is available. 
@@ -40,4 +40,4 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 ```
-Then run the "Data Preprocessing" block to complete setup.
+Then run the **Data Preprocessing** block to complete setup.
