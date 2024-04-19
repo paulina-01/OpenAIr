@@ -3,7 +3,7 @@ ADA24-Project
 Welcome to OpenAIr, a comprehensive analysis of amenities impact on Airbnb success using the [InsideAirbnb dataset](https://insideairbnb.com/get-the-data/).
 
 # Getting Started
-For the final project results, once git cloned on your platform, cd into the Final Project/FinalProject_32.ipynb file and make sure the filtered_file.csv is available. 
+For the final project results, once git cloned on your platform, ```linux cd Final Project/FinalProject_32.ipynb ``` file and make sure the filtered_file.csv is available. 
 Run the first few lines of code to make sure the csv file is connected to the notebook.
 
 ```python
@@ -41,3 +41,7 @@ from sklearn.model_selection import train_test_split
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 ```
 Finally, run the **Data Preprocessing** block to complete setup. After this, the **Modelling** block can be run to go through the final analysis, as well as edit the model being used. 
+
+# Data Exploration
+
+To review the Data Exploration milestone, ```linux cd Milestone2/351_M2_Project.ipynb ``` and run all lines to view initial analysis done on the InsideAirbnb Dataset. 
